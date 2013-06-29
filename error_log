@@ -1,0 +1,134 @@
+[28-May-2013 18:07:56 UTC] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/charwork/public_html/wwce/application/models/legacy_model.php on line 10
+[28-May-2013 18:09:32 UTC] PHP Fatal error:  Call to undefined method CI_Loader::add() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 15
+[28-May-2013 18:10:43 UTC] PHP Fatal error:  Call to undefined method CI_Loader::add() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 15
+[28-May-2013 18:10:44 UTC] PHP Fatal error:  Call to undefined method CI_Loader::add() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 15
+[28-May-2013 18:10:46 UTC] PHP Fatal error:  Call to undefined method CI_Loader::add() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 15
+[28-May-2013 18:11:05 UTC] PHP Fatal error:  Call to undefined method CI_Loader::add() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 15
+[28-May-2013 20:11:29 UTC] PHP Fatal error:  Call to undefined method legacy_controller::legacy_view() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 8
+[28-May-2013 20:11:31 UTC] PHP Fatal error:  Call to undefined method legacy_controller::legacy_view() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 8
+[29-May-2013 15:57:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 78
+[29-May-2013 20:54:26 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/charwork/public_html/wwce/system/libraries/Table.php on line 178
+[29-May-2013 20:55:48 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/charwork/public_html/wwce/system/libraries/Table.php on line 178
+[29-May-2013 20:55:49 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/charwork/public_html/wwce/system/libraries/Table.php on line 178
+[29-May-2013 22:19:06 UTC] PHP Parse error:  syntax error, unexpected T_RETURN in /home/charwork/public_html/wwce/application/models/legacy_model.php on line 16
+[29-May-2013 22:19:30 UTC] PHP Parse error:  syntax error, unexpected T_RETURN in /home/charwork/public_html/wwce/application/models/legacy_model.php on line 16
+[29-May-2013 22:19:31 UTC] PHP Parse error:  syntax error, unexpected T_RETURN in /home/charwork/public_html/wwce/application/models/legacy_model.php on line 16
+[29-May-2013 22:19:53 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/charwork/public_html/wwce/system/libraries/Table.php on line 178
+[02-Jun-2013 18:35:23 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 71
+[02-Jun-2013 18:35:56 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:37:31 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:37:32 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:44:15 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:44:16 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:45:09 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 14
+[02-Jun-2013 18:48:07 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 18:48:09 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 18:54:53 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 18:54:54 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 18:58:30 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 18:59:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 48
+[02-Jun-2013 18:59:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 48
+[02-Jun-2013 18:59:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 48
+[02-Jun-2013 18:59:41 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:11:03 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:21:15 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:21:17 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:41:41 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:41:42 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:46:20 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:48:30 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:48:31 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 19
+[02-Jun-2013 19:54:32 UTC] PHP Parse error:  syntax error, unexpected $end in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 93
+[02-Jun-2013 19:54:33 UTC] PHP Parse error:  syntax error, unexpected $end in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 93
+[02-Jun-2013 20:32:38 UTC] PHP Fatal error:  Call to undefined method legacy_controller::legacy_view() in /home/charwork/public_html/wwce/application/controllers/legacy_controller.php on line 13
+[10-Jun-2013 01:44:50 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 20
+[10-Jun-2013 01:46:38 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 20
+[10-Jun-2013 01:46:40 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/charwork/public_html/wwce/application/views/legacy_view.php on line 20
+[10-Jun-2013 01:56:57 UTC] PHP Fatal error:  Call to undefined function link_tag() in /home/charwork/public_html/wwce/application/views/header_view.php on line 7
+[10-Jun-2013 01:58:06 UTC] PHP Fatal error:  Call to undefined function link_tag() in /home/charwork/public_html/wwce/application/views/header_view.php on line 7
+[10-Jun-2013 01:58:19 UTC] PHP Fatal error:  Call to undefined function link_tag() in /home/charwork/public_html/wwce/application/views/header_view.php on line 7
+[10-Jun-2013 01:58:47 UTC] PHP Fatal error:  Call to undefined function link_tag() in /home/charwork/public_html/wwce/application/views/header_view.php on line 7
+[10-Jun-2013 02:00:22 UTC] PHP Fatal error:  Call to undefined function link_tag() in /home/charwork/public_html/wwce/application/views/header_view.php on line 7
+[10-Jun-2013 15:04:45 UTC] PHP Fatal error:  Class 'Main_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[10-Jun-2013 15:06:58 UTC] PHP Fatal error:  Class 'Main_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[10-Jun-2013 15:06:59 UTC] PHP Fatal error:  Class 'Main_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[10-Jun-2013 15:07:00 UTC] PHP Fatal error:  Class 'Main_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[10-Jun-2013 15:08:21 UTC] PHP Fatal error:  Class 'Main_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[10-Jun-2013 15:52:01 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/charwork/public_html/wwce/application/views/main_view.php on line 1
+[10-Jun-2013 19:53:51 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/main_view.php on line 11
+[10-Jun-2013 19:54:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/main_view.php on line 11
+[10-Jun-2013 19:54:20 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/main_view.php on line 11
+[10-Jun-2013 19:59:13 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/basicSearch_controller.php on line 13
+[10-Jun-2013 20:00:19 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/basicSearch_controller.php on line 13
+[10-Jun-2013 20:00:54 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/basicSearch_controller.php on line 13
+[10-Jun-2013 20:01:01 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/basicSearch_controller.php on line 13
+[10-Jun-2013 20:03:52 UTC] PHP Fatal error:  Call to undefined function model() in /home/charwork/public_html/wwce/application/controllers/basicSearch_controller.php on line 13
+[10-Jun-2013 20:59:10 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/main_view.php on line 13
+[10-Jun-2013 20:59:39 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/main_view.php on line 13
+[10-Jun-2013 20:59:40 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/main_view.php on line 13
+[10-Jun-2013 21:53:40 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 8
+[10-Jun-2013 21:54:03 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 8
+[13-Jun-2013 17:32:45 UTC] PHP Fatal error:  Class 'Get_study_model' not found in /home/charwork/public_html/wwce/system/core/Loader.php on line 303
+[21-Jun-2013 19:50:02 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 68
+[21-Jun-2013 19:53:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 119
+[21-Jun-2013 19:53:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 119
+[21-Jun-2013 19:56:23 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 68
+[21-Jun-2013 19:56:24 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 68
+[23-Jun-2013 20:39:30 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/advanced.php on line 23
+[23-Jun-2013 21:21:49 UTC] PHP Fatal error:  Call to a member function get_search() on a non-object in /home/charwork/public_html/wwce/application/controllers/advanced.php on line 23
+[24-Jun-2013 17:24:04 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 12
+[24-Jun-2013 17:24:24 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 12
+[24-Jun-2013 17:24:28 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 12
+[25-Jun-2013 14:30:18 UTC] PHP Fatal error:  Call to protected method CI_DB_active_record::_compile_select() from context 'Get_study_model' in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:33:42 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:33:43 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:33:44 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:33:57 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:33:58 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:45:39 UTC] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/charwork/public_html/wwce/system/database/DB_active_rec.php on line 2056
+[25-Jun-2013 14:45:40 UTC] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/charwork/public_html/wwce/system/database/DB_active_rec.php on line 2056
+[25-Jun-2013 14:47:47 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:47:48 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::get_compile_select() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 12
+[25-Jun-2013 14:48:34 UTC] PHP Fatal error:  Call to protected method CI_DB_active_record::_reset_select() from context 'Get_study_model' in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:48:36 UTC] PHP Fatal error:  Call to protected method CI_DB_active_record::_reset_select() from context 'Get_study_model' in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:56:12 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:56:13 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:57:38 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:57:48 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:57:56 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 14:58:52 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 15:07:11 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 15:07:12 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::reset_query() in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 15
+[25-Jun-2013 15:27:44 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 20
+[25-Jun-2013 15:27:45 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 20
+[25-Jun-2013 15:36:47 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/charwork/public_html/wwce/application/views/results_view.php on line 103
+[25-Jun-2013 15:36:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/charwork/public_html/wwce/application/views/results_view.php on line 103
+[25-Jun-2013 16:40:09 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 16:44:17 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 16:53:45 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 16:53:46 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 16:58:23 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 17:31:18 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 17:31:24 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 17:31:28 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 18:00:36 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 18:48:12 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 97
+[25-Jun-2013 18:49:17 UTC] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 100
+[25-Jun-2013 18:49:18 UTC] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 100
+[25-Jun-2013 18:50:05 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 352
+[25-Jun-2013 18:50:06 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/charwork/public_html/wwce/application/views/results_view.php on line 352
+[25-Jun-2013 20:16:38 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 18
+[25-Jun-2013 20:16:40 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 18
+[25-Jun-2013 20:17:12 UTC] PHP Fatal error:  Call to a member function start_subquery() on a non-object in /home/charwork/public_html/wwce/application/models/get_study_model.php on line 13
+[26-Jun-2013 16:19:30 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/results_view.php on line 9
+[26-Jun-2013 16:19:33 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/results_view.php on line 9
+[26-Jun-2013 16:19:52 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/results_view.php on line 9
+[26-Jun-2013 16:19:53 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/results_view.php on line 9
+[26-Jun-2013 16:50:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/views/results_view.php on line 126
+[26-Jun-2013 16:59:29 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/charwork/public_html/wwce/application/views/results_view.php on line 125
+[26-Jun-2013 17:00:57 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/charwork/public_html/wwce/application/views/results_view.php on line 125
+[26-Jun-2013 17:00:58 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/charwork/public_html/wwce/application/views/results_view.php on line 125
+[26-Jun-2013 17:01:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/views/results_view.php on line 127
+[26-Jun-2013 17:01:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/views/results_view.php on line 127
+[26-Jun-2013 17:07:41 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/charwork/public_html/wwce/application/views/results_view.php on line 125
+[27-Jun-2013 00:48:38 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/charwork/public_html/wwce/application/views/main_view.php on line 14
