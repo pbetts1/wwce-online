@@ -18,14 +18,6 @@
 				
 				<section class="span9">
 					
-						<fieldset>
-							<legend>
-								Basic Search
-							</legend>
-							<label>Find an Intervention</label>
-							<input type="text" name="name" class="input-block-level">
-						</fieldset>
-					
 					<?php 
 									echo form_fieldset('Basic Search');
 							        echo form_label('Find an Intervention');	 
