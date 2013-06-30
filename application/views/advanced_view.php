@@ -46,9 +46,6 @@
 						                  'Effective'    => 'Effective',
 						                  'Unproven'   => 'Unproven',
 						                  'Iatrogenic' => 'Iatrogenic'); 
-						                
-						
-					
 						
 					                   echo form_dropdown('effective', $options, 'selected');
 					
@@ -83,21 +80,6 @@
 
 				<section class="span6">
 			
-						<fieldset>
-							<legend>
-								Outcome Category
-							</legend>
-							<label>Outcomel of Intervention</label>
-							<select name="outcome" size="1">
-								<option selected>Select one...</option>
-								<option value="afr">Risk Behavior</option>
-								<option value="ant">Pro-Social Competencies</option>
-								<option value="asia">School-Based outcome</option>
-								<option value="asia">General Social-Emotional</option>
-							</select>
-							<button class="btn">Outcome Taxonomy</button>
-						</fieldset>
-						
 						<?php
 							echo form_fieldset('Outcome Category');
 							echo form_label('Outcome of Intervention');
@@ -111,38 +93,30 @@
 					        echo form_dropdown('outcomes', $options, 'selected');
                             echo form_fieldset_close(); 
                             ?>			  
-						
-						
-						
-						
-						
-						
-						
+		        </section>
 				
-				</section>
-				
-				<section class="span6">
-				
-						<fieldset>
-							<legend>
-								Implementation Strategy
-							</legend>
-							<label>Content and Pedagogical Elements</label>
-							<select name="outcome" size="1">
-								<option selected>Select one...</option>
-								<option value="afr">Explicit Chatacter Education Program</option>
-								<option value="ant">Social and Emotional Curriculum</option>
-								<option value="asia">Academic Curriculum Integration</option>
-								<option value="asia">Direct Teaching Strategies</option>
-								<option value="asia">Interactive Treaching/Learning Strategies</option>
-								<option value="asia">Classroom/Behavior Management Strategies</option>
-								<option value="asia">School-Wide or Institutional Organization</option>
-								<option value="asia">Modeling/Mentoring</option>
-								<option value="asia">FamilyCommunity Participation</option>
-								<option value="asia">Community Service/Service Learning</option>
-								<option value="asia">Profesional Development</option>
-							</select>
-						</fieldset>
+				<section class="span6">	
+					
+						<?php
+							echo form_fieldset('Implementation Strategy');
+							echo form_label('Content and Pedagogical Elements');
+                             $options = array(
+						                  'selected'  => 'Select one...',
+						                  'Explicit Chatacter Education Program'    => 'Explicit Chatacter Education Program',
+						                  'Social and Emotional Curriculum'   => 'Social and Emotional Curriculum',
+						                  'Academic Curriculum Integration' => 'Academic Curriculum Integration',
+						                  'Direct Teaching Strategies' => 'Direct Teaching Strategies',
+						                  'Interactive Teaching Learning Strategies' => 'Interactive Teaching/Learning Strategies',
+						                  'Classroom Behavior Management Strategies'   => 'Classroom/Behavior Management Strategies',
+						                  'Modeling Mentoring' => 'Modeling/Mentoring',
+						                  'Family Community Participation<s' => 'Family Community Participation',
+						                  'Community Service Service Learning' => 'Community Service/Service Learning',
+						                  'Profesional Development' => 'Profesional Development'); 
+						   
+					        echo form_dropdown('strategy', $options, 'selected');
+                            echo form_fieldset_close(); 
+                            ?>			  
+	
 						<input type=submit value='Search' class='btn'/>
 						
 				
