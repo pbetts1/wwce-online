@@ -114,7 +114,38 @@
 						   
 					        echo form_dropdown('strategy', $options, 'selected');
                             echo form_fieldset_close(); 
-                            ?>			  
+                            ?>	
+                            
+                           <?php 
+                            $search = array(
+
+								    array(
+								         'field'   => 'name'
+								       
+								    ),
+								    array(
+								         'field'   => 'effective',
+								         
+								    ),
+								    array(
+								         'field'   => 'target',
+								    
+								    ),
+								    array(
+								         'field'   => 'outcomes',
+								         
+								    ),
+								    array(
+								         'field'   => 'stratergy',
+								         
+								    )
+								    
+								
+								);
+								                            
+						?>                          
+								                            
+                            		  
 	
 						<?=form_input($search);?><input type=submit value='Search' class='btn'/>
 						

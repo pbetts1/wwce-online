@@ -22,7 +22,7 @@ class Advanced extends CI_Controller {
 		$this->load->model('Advanced_search_model');
 		$data['target'] = $this->input->post();
 		$this->load->view('header_view');
-		$this->load->view('advancedSearch_view', $data);
+		$this->load->view('basicSearch_view', $data);
 		$this->load->view('footer_view');
 		
 	}
