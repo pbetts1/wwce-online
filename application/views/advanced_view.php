@@ -58,30 +58,24 @@
 				</section>
 
 				<section class="span6">
-					
-						<fieldset>
-							<legend>
-								Target Population
-							</legend>
+				
 							<label>Grade level of Intervention</label>
-										  
-										 <?php 
-										 
-										 $options = array(
+							<?php
+							echo form_fieldset('Target Population');
+							echo form_label('Grade Level Intervention');
+                             $options = array(
 						                  'selected'  => 'Select one...',
 						                  'Elementary'    => 'Elementary',
 						                  'Middle School'   => 'Middle School',
 						                  'High School' => 'High School'); 
-						                
-						
-					
-						
-					                   echo form_dropdown('target', $options, 'selected');
-					
-					                  ?>
-						
-						</fieldset>
+						   
+					        echo form_dropdown('target', $options, 'selected');
+                            echo form_fieldset_close(); 
+                            ?>			  
+									
+								
 				
+				 
 				</section>
 				
 			</section>
