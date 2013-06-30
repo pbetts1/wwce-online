@@ -21,7 +21,7 @@
 					<?php 
 									echo form_fieldset('Basic Search');
 							        echo form_label('Find an Intervention');	
-									echo form_input('basic', set_value('basic'));
+									echo form_input('basic');
 					                echo form_fieldset_close(); 
 					                  ?>
 		
