@@ -58,8 +58,7 @@
 				</section>
 
 				<section class="span6">
-				
-							<label>Grade level of Intervention</label>
+
 							<?php
 							echo form_fieldset('Target Population');
 							echo form_label('Grade Level Intervention');
