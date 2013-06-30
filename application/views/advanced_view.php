@@ -20,15 +20,9 @@
 					
 					<?php 
 									echo form_fieldset('Basic Search');
-							        echo form_label('Find an Intervention');	 
-									$data = array(
-								              'name'        => 'name',
-								              'class'          => 'input-block-level',
-								              'value'       => ''
-								                );
-
-									   echo form_input($data);
-					                   echo form_fieldset_close(); 
+							        echo form_label('Find an Intervention');	
+									echo form_input('basic', set_value('basic'));
+					                echo form_fieldset_close(); 
 					                  ?>
 		
 				</section>
@@ -47,7 +41,7 @@
 						                  'Unproven'   => 'Unproven',
 						                  'Iatrogenic' => 'Iatrogenic'); 
 						
-					                   echo form_dropdown('effective', $options, 'selected');
+					                   echo form_dropdown('effective', $options, set_value('effective'));
 					                   echo form_fieldset_close(); 
 					                  ?>
 					
@@ -64,7 +58,7 @@
 						                  'Middle School'   => 'Middle School',
 						                  'High School' => 'High School'); 
 						   
-					        echo form_dropdown('target', $options, 'selected');
+					        echo form_dropdown('target', $options, set_value('target'));
                             echo form_fieldset_close(); 
                             ?>			  
 									
@@ -89,7 +83,7 @@
 						                  'School Based outcome' => 'School-Based outcome',
 						                  'Emotional' => 'General Social-Emotional'); 
 						   
-					        echo form_dropdown('outcomes', $options, 'selected');
+					        echo form_dropdown('outcomes', $options, set_value('outcomes'));
                             echo form_fieldset_close(); 
                             ?>			  
 		        </section>
@@ -112,42 +106,14 @@
 						                  'Community Service Service Learning' => 'Community Service/Service Learning',
 						                  'Profesional Development' => 'Profesional Development'); 
 						   
-					        echo form_dropdown('strategy', $options, 'selected');
+					        echo form_dropdown('strategy', $options, set_value('strategy'));
                             echo form_fieldset_close(); 
-                            ?>	
+                          
                             
-                           <?php 
-                            $search = array(
-
-								    array(
-								         'field'   => 'name'
-								       
-								    ),
-								    array(
-								         'field'   => 'effective',
-								         
-								    ),
-								    array(
-								         'field'   => 'target',
-								    
-								    ),
-								    array(
-								         'field'   => 'outcomes',
-								         
-								    ),
-								    array(
-								         'field'   => 'stratergy',
-								         
-								    )
-								    
-								
-								);
-								                            
-						?>                          
-								                            
+                         
                             		  
-	
-						<?=form_input($search);?><input type=submit value='Search' class='btn'/>
+	                    echo form_submit('submit', 'Search', 'btn');
+						  ?>	
 						
 				
 				</section>
