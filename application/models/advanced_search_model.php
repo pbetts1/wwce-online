@@ -4,7 +4,7 @@ class Advanced_search_model extends CI_Model {
 	public function get_search()
 	{
 			
-				$match = $this->input->post('target');
+				$match = $this->input->post('search');
 				
 				$this->db->select('*');
 				$this->db->from('synopsis_header');

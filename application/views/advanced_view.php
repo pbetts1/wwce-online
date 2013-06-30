@@ -116,7 +116,7 @@
                             echo form_fieldset_close(); 
                             ?>			  
 	
-						<input type=submit value='Search' class='btn'/>
+						<?=form_input($search);?><input type=submit value='Search' class='btn'/>
 						
 				
 				</section>
