@@ -26,6 +26,19 @@
 							<input type="text" name="name" class="input-block-level">
 						</fieldset>
 					
+					<?php 
+									echo form_fieldset('Basic Search');
+							        echo form_label('Find an Intervention');	 
+									$data = array(
+								              'name'        => 'name',
+								              'class'          => 'input-block-level',
+								              'value'       => ''
+								                );
+
+									   echo form_input($data);
+					                   echo form_fieldset_close(); 
+					                  ?>
+		
 				</section>
 				
 			</section>
@@ -33,14 +46,9 @@
 			<section class="row-fluid">
 				<section class="span6">
 					
-						<fieldset>
-							<legend>
-								Overall Desgination
-							</legend>
-							<label>Intervention Effectiveness:</label>
-							
 							 <?php 
-										 
+									echo form_fieldset('Overall Designation');
+							        echo form_label('Intervention Effectiveness');	 
 										 $options = array(
 						                  'selected'  => 'Select one...',
 						                  'Effective'    => 'Effective',
@@ -48,9 +56,8 @@
 						                  'Iatrogenic' => 'Iatrogenic'); 
 						
 					                   echo form_dropdown('effective', $options, 'selected');
-					
+					                   echo form_fieldset_close(); 
 					                  ?>
-						</fieldset>
 					
 				</section>
 
