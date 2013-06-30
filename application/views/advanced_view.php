@@ -97,6 +97,27 @@
 							</select>
 							<button class="btn">Outcome Taxonomy</button>
 						</fieldset>
+						
+						<?php
+							echo form_fieldset('Outcome Category');
+							echo form_label('Outcome of Intervention');
+                             $options = array(
+						                  'selected'  => 'Select one...',
+						                  'Risk Behavior'    => 'Risk Behavior',
+						                  'Competencies'   => 'Pro-Social Competencies',
+						                  'School Based outcome' => 'School-Based outcome',
+						                  'Emotional' => 'General Social-Emotional'); 
+						   
+					        echo form_dropdown('outcomes', $options, 'selected');
+                            echo form_fieldset_close(); 
+                            ?>			  
+						
+						
+						
+						
+						
+						
+						
 				
 				</section>
 				
