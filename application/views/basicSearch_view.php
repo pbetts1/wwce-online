@@ -1,4 +1,14 @@
+<?php
 
+if (empty($query)){
+
+echo '<h1>';
+echo'Sorry your search returned no results';
+echo '</h1>';
+	
+}
+	
+?>
 
 	<table class="table table-striped table-bordered">
 	

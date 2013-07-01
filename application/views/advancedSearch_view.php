@@ -2,7 +2,7 @@
 <body>
 	<table>
 	
-	<?php echo print_r($match); ?>
+	<?php echo $query; ?>
 </table>
 </body>
 </html>

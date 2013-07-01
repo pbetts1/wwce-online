@@ -2,17 +2,18 @@
 			<section class="row-fluid">
 				<section class="span3">
 	
-						<fieldset>
-							<legend>
-								Search Option
-							</legend>
-							<label class="checkbox inline">
-							  <input type="checkbox" id="inlineCheckbox1" value="option1"> and
-							</label>
-							<label class="checkbox inline">
-							  <input type="checkbox" id="inlineCheckbox2" value="option2"> or
-							</label>
-						</fieldset>
+				
+						<?php 
+									echo form_fieldset('Search Option');
+							        echo form_label('And');	 
+									echo form_radio('option', 'and');
+									echo form_label('Or');	 
+									echo form_radio('option', 'or','checked');
+					                echo form_fieldset_close(); 
+					                  
+					        ?>
+					
+						
 	
 				</section>
 				

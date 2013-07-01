@@ -20,6 +20,10 @@
                	<?= anchor('advanced/index/','Advanced Search'); ?>
                	
                </p>
+               <p>
+               	<?= anchor('main_controller/search/','View All Studies'); ?>
+               	
+               </P>
                
 				</section>
 

@@ -1,4 +1,7 @@
+
+
 <?php foreach($query as $item):?>
+		
 			<section class="span10 offset1">
 				<section>
 				<h1><?= $item->	Program_Synopsis; ?></h1>
