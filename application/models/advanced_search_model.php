@@ -13,9 +13,26 @@ class Advanced_search_model extends CI_Model {
 				'outcomes' => $this->input->post('outcomes')
 				);
 				
-				$match = $query_array;
+				if (strlen($query_array['basic'])){
+					
+					$match = $query_array['basic'];
+				}
 				
-				$this->db->select('*');
+				if (strlen($query_array['effective'])){
+					
+					$match = $query_array['effective'];
+				}
+				
+				if (strlen($query_array['target'])){
+					
+					$match = $query_array['target'];
+				}
+				
+				
+				
+				
+				
+	            $this->db->select('*');
 				$this->db->from('synopsis_header');
 				$this->db->like('Overall_designation',$match);
 				$this->db->or_like('Delivery_Agents',$match);
@@ -26,6 +43,7 @@ class Advanced_search_model extends CI_Model {
 				$query = $this->db->get();
 				
 				return $query->result();   
+				
 	   
 		
 	}

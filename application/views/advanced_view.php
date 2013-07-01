@@ -109,12 +109,9 @@
 					        echo form_dropdown('strategy', $options, set_value('strategy'));
                             echo form_fieldset_close(); 
                           
-                            
-                         
-                            		  
-	                    echo form_submit('submit', 'Search', 'btn');
+                  
 						  ?>	
-						
+						     <input class='btn' type='submit' value='Search' />
 				
 				</section>
   <?=form_close();?>
