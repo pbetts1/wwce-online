@@ -50,12 +50,16 @@
 		<div class="container-fluid">
 			<nav class="navbar">
 				<div class="navbar-inner">
+					<a class="brand" href="#">WWCE Online Database</a>
 					<ul class="nav">
 						<li>
 							<?=  anchor('main_controller/index/','Home') ?>
 						</li>
 						<li>
 							<?=  anchor('advanced/index/','Advanced Search') ?>
+						</li>
+						<li>
+							<?= anchor('main_controller/search/','View All Interventions'); ?>
 						</li>
 						<li>
 							<a href="http://www.characteredworks.org">CERP Clearinghouse</a>

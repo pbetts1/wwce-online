@@ -21,7 +21,7 @@
                	
                </p>
                <p>
-               	<?= anchor('main_controller/search/','View All Studies'); ?>
+               	<?= anchor('main_controller/search/','View All Interventions'); ?>
                	
                </P>
                
