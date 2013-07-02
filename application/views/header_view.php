@@ -64,7 +64,7 @@
 				</div>
 			</nav>
 
-			<div class="jumbotron subhead">
+			<div class="jumbotron subhead cherp-header">
 				<div class="container">
 					<h1>WWCE</h1>
 					<p>
