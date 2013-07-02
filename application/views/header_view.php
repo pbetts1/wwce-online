@@ -64,7 +64,7 @@
 							<a href="http://www.characteredworks.org">CERP Clearinghouse</a>
 						</li>
 					</ul>
-					<?=  anchor('main_controller/index/','WWCE Online Database' array('class' => 'brand')) ?> 
+					<?= anchor('main_controller/index/','WWCE Online Database', array('class' => 'brand')); ?> 
 				</div>
 			</nav>
 
