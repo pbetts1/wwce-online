@@ -48,7 +48,7 @@
 <body>
 <body>
 		<div class="container-fluid">
-			<nav class="navbar">
+			<nav class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<a class="brand" href="#">WWCE Online Database</a>
 					<ul class="nav">
