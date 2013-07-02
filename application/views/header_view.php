@@ -22,7 +22,8 @@
   $(function() {
     $( "#accordion" ).accordion({
       heightStyle: "fill",
-       collapsible: true
+       collapsible: true,
+       active: false
       
     });
   });
