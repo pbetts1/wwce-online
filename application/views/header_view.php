@@ -50,7 +50,6 @@
 		<div class="container-fluid">
 			<nav class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
-					<a class="brand" href="#">WWCE Online Database</a>
 					<ul class="nav">
 						<li>
 							<?=  anchor('main_controller/index/','Home') ?>
@@ -65,6 +64,7 @@
 							<a href="http://www.characteredworks.org">CERP Clearinghouse</a>
 						</li>
 					</ul>
+					<?=  anchor('main_controller/index/','WWCE Online Database' array('class' => 'brand')) ?> 
 				</div>
 			</nav>
 
