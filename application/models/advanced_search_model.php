@@ -1,7 +1,9 @@
 <?php
 class Advanced_search_model extends CI_Model {
 
-//The model for the advanced search page
+//The model for the advanced search page 
+//Controller: advanced.php
+//Views:basicSearch_view.php
 
 	public function get_search()
 	{

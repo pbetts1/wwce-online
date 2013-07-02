@@ -1,6 +1,10 @@
 <?php
 class Basic_search_model extends CI_Model {
 
+//The model for the basic search page 
+//Controller: main_controller.php
+//Sends information to basicSearch_view.php
+
 	public function get_search()
 	{
 			
