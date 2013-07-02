@@ -125,7 +125,7 @@
 					 while ($row = mysql_fetch_assoc($result)) {
            
 echo'<h3>';
-echo $row['Study_slug'];
+echo $row['Study_slug']."...";
 echo'</h3>';   
 echo "<div>";
 				
