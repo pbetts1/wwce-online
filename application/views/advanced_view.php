@@ -1,5 +1,5 @@
 <?=form_open('advanced/search');?>
-			<section class="row-fluid">
+			<section  class="span10 offset1">
 				<section class="span3">
 	
 				
