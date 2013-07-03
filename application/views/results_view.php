@@ -12,7 +12,7 @@
 					</caption> 
 					<tbody>                  
 						<tr>
-							<th>Target Population</th>
+							<th style="width: 25%">Target Population</th>
 							<td><?= $item->	Target_population; ?></td>
 					
 						</tr>
@@ -47,11 +47,11 @@
 
 				<table class="table table-striped table-bordered">
 					<caption class="program">
-						<?= $item->	History; ?>
+						History
 					</caption>
 					<tbody>
 						<tr>
-							<th>Date of origin</th>
+							<th style="width: 25%">Date of origin</th>
 							<td><?= $item->	Date_of_Origin; ?></td>
 						</tr>
 						<tr>
@@ -79,7 +79,7 @@
 					</caption>
 					<tbody>
 						<tr>
-							<th>Material purchases</th>
+							<th style="width: 25%">Material purchases</th>
 							<td><?= $item->	Material_Purchases; ?></td>
 						</tr>
 						<tr>
@@ -94,7 +94,7 @@
 					</caption>
 					<tbody>
 						<tr>
-							<th>Outcomes</th>
+							<th style="width: 25%">Outcomes</th>
 							<td><?= nl2br($item->Outcomes_Taxonomy); ?></td>
 							
 						</tr>
@@ -156,20 +156,20 @@ echo "<div>";
 				
 				
 	                          echo"<h5>Research Questions</h5>";
-								 echo "<p><strong>";
+								 echo "<p>";
 				                 echo nl2br($row['Research_Questions']);
-				                 echo "</p></strong>";
+				                 echo "</p>";
 								 
 								 
 								 echo"<h5>Methods</h5>";
-								 echo "<p><strong>";
+								 echo "<p>";
 								 echo nl2br($row['Methods']);
-								 echo "</p></strong>";
+								 echo "</p>";
 								 
 								 echo"<h5>Results</h5>";
-								 echo "<p><strong>";
+								 echo "<p>";
 								 echo nl2br($row['Results']);
-								 echo "</p></strong>";
+								 echo "</p>";
 	 
 				
 	echo "</div>";			   
@@ -188,7 +188,7 @@ echo "<div>";
 					
 					<tbody>
 						<tr>
-							<th>Awards and Recognition</th>
+							<th style="width: 25%">Awards and Recognition</th>
 							<td><?= $item->Intervention_Strategies; ?></td>
 						</tr>
 						<tr>
