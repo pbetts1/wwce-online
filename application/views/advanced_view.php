@@ -1,5 +1,6 @@
 <?=form_open('advanced/search');?>
-			<section  class="span10 offset1">
+		<section  class="span10 offset1">
+			<section class="row-fluid">
 				<section class="span3">
 	
 				
@@ -117,3 +118,4 @@
 				</section>
   <?=form_close();?>
 			</section>
+		</section>
