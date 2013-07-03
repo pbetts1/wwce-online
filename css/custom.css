@@ -176,3 +176,15 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
     margin: 0 0 0 -5px;
     float: right;
   }
+  
+/* Program Tables */
+
+.table caption.program {
+	font-size: 24.5px;
+	margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
