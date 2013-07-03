@@ -7,7 +7,7 @@
 				<h1><?= $item->	Program_Synopsis; ?></h1>
 				<h3>STUDIES: <?= $item->	Number_of_Studies; ?></h3>
 				<table class="table table-striped table-bordered">
-					<caption>
+					<caption class="program">
 						Program Description 
 					</caption> 
 					<tbody>                  
@@ -46,7 +46,7 @@
 				</table>
 
 				<table class="table table-striped table-bordered">
-					<caption>
+					<caption class="program">
 						<?= $item->	History; ?>
 					</caption>
 					<tbody>
@@ -74,7 +74,7 @@
 				</table>
 
 				<table id="program" class="table table-striped table-bordered">
-					<caption>
+					<caption class="program">
 						Requirements
 					</caption>
 					<tbody>
@@ -89,7 +89,7 @@
 					</tbody>
 				</table>
 				<table id="outcomes" class="table table-striped table-bordered">
-					<caption>
+					<caption class="program">
 						Outcomes
 					</caption>
 					<tbody>
