@@ -1,5 +1,4 @@
 
-
 <?php foreach($query as $item):?>
 		
 			<section class="span10 offset1">
@@ -121,11 +120,12 @@
 					// store the record of the "example" table into $row
 					//$row = mysql_fetch_array( $result );
             
-	         
+	        $num_row = 1;
+			 
 					 while ($row = mysql_fetch_assoc($result)) {
            
 echo'<h3>';
-echo $row['Study_slug']."...";
+echo "(".$num_row.")&nbsp;".$row['Study_slug']."...";
 echo'</h3>';   
 echo "<div>";
 				
@@ -172,8 +172,12 @@ echo "<div>";
 								 echo "</p>";
 	 
 				
-	echo "</div>";			   
+	echo "</div>";		
+	
+	$num_row ++;	   
 	 }
+
+
 		?>			
 								
 		
@@ -188,8 +192,13 @@ echo "<div>";
 					
 					<tbody>
 						<tr>
+<<<<<<< HEAD
 							<th style="width: 25%">Awards and Recognition</th>
 							<td><?= $item->Intervention_Strategies; ?></td>
+=======
+							<th>Awards and Recognition</th>
+							<td><?= nl2br($item->Intervention_Strategies); ?></td>
+>>>>>>> more changes
 						</tr>
 						<tr>
 							<th>Variations</th>
