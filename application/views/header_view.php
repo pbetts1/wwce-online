@@ -62,7 +62,7 @@
 							<?= anchor('main_controller/search/','View All Interventions'); ?>
 						</li>
 						<li>
-							<a href="http://www.characteredworks.org">CERP Clearinghouse</a>
+							<a href="http://www.characteredworks.org">ChERP Clearinghouse</a>
 						</li>
 					</ul>
 					<?= anchor('main_controller/index/','WWCE Online Database', array('class' => 'brand')); ?> 
