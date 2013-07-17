@@ -132,3 +132,18 @@
 [26-Jun-2013 17:01:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/charwork/public_html/wwce/application/views/results_view.php on line 127
 [26-Jun-2013 17:07:41 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/charwork/public_html/wwce/application/views/results_view.php on line 125
 [27-Jun-2013 00:48:38 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/charwork/public_html/wwce/application/views/main_view.php on line 14
+[30-Jun-2013 22:19:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/charwork/public_html/wwce/application/views/advanced_view.php on line 115
+[01-Jul-2013 19:48:13 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/charwork/public_html/wwce/application/models/advanced_search_model.php on line 85
+[01-Jul-2013 19:59:05 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 3
+[01-Jul-2013 20:01:33 UTC] PHP Fatal error:  Call to undefined function num_rows() in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 3
+[01-Jul-2013 20:06:39 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 16
+[01-Jul-2013 20:07:05 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:07:28 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:15:05 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:15:28 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:15:31 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:15:49 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 11
+[01-Jul-2013 20:19:36 UTC] PHP Fatal error:  Can't use method return value in write context in /home/charwork/public_html/wwce/application/views/basicSearch_view.php on line 3
+[01-Jul-2013 20:30:06 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/charwork/public_html/wwce/application/models/advanced_search_model.php on line 74
+[02-Jul-2013 03:15:24 UTC] PHP Parse error:  syntax error, unexpected T_ARRAY in /home/charwork/public_html/wwce/application/views/header_view.php on line 67
+[02-Jul-2013 03:16:59 UTC] PHP Parse error:  syntax error, unexpected T_ARRAY in /home/charwork/public_html/wwce/application/views/header_view.php on line 67

@@ -1920,7 +1920,7 @@ input.search-query {
 .form-search .checkbox,
 .form-inline .radio,
 .form-inline .checkbox {
-  padding-left: 0;
+  padding-left: 5px;
   margin-bottom: 0;
   vertical-align: middle;
 }

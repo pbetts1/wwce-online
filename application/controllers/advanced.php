@@ -2,9 +2,6 @@
 
 class Advanced extends CI_Controller {
 
-//The controller for the advanced search page 
-//Model: advanced_search_model.php
-//Views: basicSearch_view.php, advanced_view.php, results_view.php
 	 function __construct()
     {
         parent::__construct();
